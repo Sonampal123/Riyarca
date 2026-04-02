@@ -80,6 +80,7 @@
              @error('password')
         <p style="color:red; font-size:12px; margin-top:-10px; margin-bottom:10px;">{{ $message }}</p>
     @enderror
+    
 
             {{-- <label for="role">Select Role</label>
             <select id="role" name="role" required>
