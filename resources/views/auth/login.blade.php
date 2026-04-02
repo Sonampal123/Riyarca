@@ -81,7 +81,7 @@
         <p style="color:red; font-size:12px; margin-top:-10px; margin-bottom:10px;">{{ $message }}</p>
     @enderror
 
-            <label for="role">Select Role</label>
+            {{-- <label for="role">Select Role</label>
             <select id="role" name="role" required>
                 <option value="" disabled selected>-- Select Role --</option>
                 <option value="admin"   {{ old('role') == 'admin'   ? 'selected' : '' }}>Admin</option>
@@ -91,7 +91,7 @@
 
              @error('role')
         <p style="color:red; font-size:12px; margin-top:-10px; margin-bottom:10px;">{{ $message }}</p>
-    @enderror
+    @enderror --}}
 
             <button type="submit" class="btn">Login</button>
 
